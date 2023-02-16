@@ -1,10 +1,10 @@
 resource "google_compute_instance" "vm" {
-  name         = "private-vm"
+  name         = "vm"
   machine_type = "e2-medium"
   zone         = "us-central1-c"
 
   depends_on = [
-    google_container_cluster.my-private-cluster
+    google_container_cluster.mycluster
    , google_container_node_pool.nodepool
   ]
   
