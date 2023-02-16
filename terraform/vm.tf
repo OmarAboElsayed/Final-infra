@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm" {
-  name         = "vm"
+  name         = var.vm
   machine_type = "e2-medium"
   zone         = "us-central1-c"
   
@@ -26,4 +26,4 @@ resource "google_compute_instance" "vm" {
     subnetwork = google_compute_subnetwork.management.id
   }
 }
-Footer
+
