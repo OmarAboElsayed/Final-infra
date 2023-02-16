@@ -1,4 +1,4 @@
-resource "google_compute_router_nat" "nat-gw" {
+resource "google_compute_router_nat" "nat" {
   name                               = "nat"
   router                             = google_compute_router.router.name
   region                             = google_compute_router.router.region
