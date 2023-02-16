@@ -1,16 +1,3 @@
-# resource "google_service_account" "service-node" {
-#   account_id   = "service-node"
-#   display_name = "Service Account"
-# }
-# resource "google_project_iam_binding" "iam_clusters" {
-#   project = "omar-mohamed-el-sayed-project"
-#   role    = "roles/container.admin"
-
-#   members = [
-#     "serviceAccount:${google_service_account.service-node.email}"
-#   ]
-# }
-
 
 #it's recommended to create service account for gke 
 resource "google_service_account" "node-service-account" {
