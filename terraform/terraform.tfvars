@@ -1,0 +1,7 @@
+vpc = "myvpc"
+cluster="mycluster"
+region = "us-central1"
+zone="us-central1-a"
+cidr1 = "10.0.1.0/24"
+name-subnet="management"
+project="omar-mohamed-el-sayed-project"
