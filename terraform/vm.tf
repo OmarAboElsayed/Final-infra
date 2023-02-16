@@ -2,6 +2,7 @@ resource "google_compute_instance" "vm" {
   name         = "vm"
   machine_type = "e2-medium"
   zone         = "us-central1-c"
+  
 
   depends_on = [
     google_container_cluster.mycluster
@@ -9,7 +10,7 @@ resource "google_compute_instance" "vm" {
   ]
   
     service_account {
-    email = google_service_account.project-service-account.email
+    email = google_service_account.node-service-account.email
     scopes = ["https://www.googleapis.com/auth/cloud-platform" ]
   }
   
