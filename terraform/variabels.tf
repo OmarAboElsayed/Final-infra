@@ -27,3 +27,10 @@ variable "vm"{
 type=string
 }
 
+variable "deployment"{
+type=string
+}
+variable "service"{
+type=string
+}
+
