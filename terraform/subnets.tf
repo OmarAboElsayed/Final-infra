@@ -2,8 +2,8 @@
 
 resource "google_compute_subnetwork" "management" {
   name          = "management"
-  ip_cidr_range = "10.0.1.0/24"
-  region        = "us-central1"
+  ip_cidr_range = var.cidr1
+  region        = var.region
   network       = google_compute_network.myvpc.id
   private_ip_google_access = true
   secondary_ip_range {
