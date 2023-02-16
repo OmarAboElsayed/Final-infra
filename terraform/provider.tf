@@ -1,5 +1,5 @@
 provider "google" {
-project = "omar-mohamed-el-sayed-project"
+project = var.project
 credentials = file("./file.json")
 region = "us-central1"
 }
