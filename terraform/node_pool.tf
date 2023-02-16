@@ -1,6 +1,6 @@
 resource "google_container_node_pool" "nodepool" {
   name       = "nodepool"
-  location   = "us-central1-a"
+  location   = var.zone
   cluster    = google_container_cluster.mycluster.id
   node_count = 1
 
