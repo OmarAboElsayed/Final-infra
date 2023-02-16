@@ -20,6 +20,10 @@ variable "project" {
 variable "cluster"{
 type=string
 }
-variable "name-subnet"{
+variable "subnet"{
 type=string
 }
+variable "vm"{
+type=string
+}
+
