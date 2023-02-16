@@ -1,7 +1,7 @@
 
 resource "google_container_cluster" "mycluster" {
   name     = var.cluster
-  location = "us-central1-a"
+  location = var.zone
    
   remove_default_node_pool = true
   initial_node_count       = 1
@@ -32,8 +32,8 @@ resource "google_container_cluster" "mycluster" {
     workload_pool = "omar-mohamed-el-sayed-project.svc.id.goog"
   }
   ip_allocation_policy {
-    cluster_secondary_range_name  = "k8s-pod-range"
-    services_secondary_range_name = "k8s-service-range"
+    cluster_secondary_range_name  = var.deployment
+    services_secondary_range_name = var.service
   }
 
   private_cluster_config {
