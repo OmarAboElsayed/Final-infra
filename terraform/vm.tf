@@ -1,7 +1,7 @@
 resource "google_compute_instance" "vm" {
   name         = var.vm
   machine_type = "e2-medium"
-  zone         = "us-central1-c"
+  zone         = var.zone
   
 
   depends_on = [
