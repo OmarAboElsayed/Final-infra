@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "omar-mohamed-el-sayed-project",
+    "private_key_id": "7d3d67353d41ce17b1046909d6515fcc828e8269",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCyM1uXruRytEpa\nmao5OGR56avOOyp1sqrG7NzbXMTtB0ppINxtqZ2TIhzEJC6+1y8YbyU1/yLxFOIi\n64yUh5nxp776+rGHqJRVgYPm7vjT9mepng9Tb7TgFUoOfpz7A8+CeTFfo0NNpEnl\nT7DMdQFGbDWp9mP7tl7lOmnxZFUGRUw1Mrms2tgYvNSovmimWkNp7tSGxDDIcPHU\nYkOVo/Yc8m0wRb0fR8tyW34kLaVsVpLqemDnpljGqJ6Q7Hscnk0CLUbx5on7rk+z\nRrQAXouZp3x426Dn5fxbk1Ndb/cd1oROyk9CIQZd2LgzrNdVBvkmPPX7E2d0uyuL\ntVWqFk4JAgMBAAECggEAEIp2W8XK5D/KcA7370BGCU/wl9/DkPHA6t6VIJKDn/nP\nhSMc+tvl6cCemXE/Wo0ITNUSR+kTEfwtgm7JWYcducHnlw3amTxDao1vVCoF9EzY\nsfSfORAzIqKvQVms0hr4McT0mYtCxcv0ZQHo6A2LTQFh2NErVjPHKrFpoJO+1apE\n2MDk8AwOVyIGlBCOTK/a7cCEZyUHfwGnhXb5qfQz5ucFnQyPps+/m3iZYv9DwxjS\nhT+LBV6XewQbzL3XRxfW0QjB//fcwRdWfKS+QS+UoHSbklsBU7r+uSM35eXD8U6G\nB0Vb3rcGSlf6exfR/zerBo3SY1Vz+k01d+AxVgMr4QKBgQDe8WjGYRQKk1UnO3tN\nSpJ6Rlx3gxap//OXAUJF0ey2zge0rX9EmZR6SmjUBvif2Az74byo+3C+hkQjRDOu\nphH3Z/ScZz38ELPYI952jRUZJAJcv8+rDFVyGvVvDG85TIrE00M69jDf46itnp1X\nAhDKJ7Kyod6isXDz8T+CbPVSuQKBgQDMn5fCNXvGI15Iur3LXAbB+EgHM2cNj+9C\n2oK4+QI7/WUuUY1YczWTvidWSqvSMQVr5XZojDlwOjPc3UfhGNB9wTU5d1vWsQQZ\nx46U7B+9jgL3o/smsgE9WeEgy4UemtpMvfMUKtLJbWTJ+MCiZiT62tw+JQprlCjt\nzBGuJ71t0QKBgQC6gMe+1S1332LoDBmNQiohgkUOcap/ErCLjbEMSZ42G0tU+aMz\nFyuf1im13hMVXR8Xg/NYhef+asILop19qE31Y5C9Wpz/BlX9JZyQHlwdCQO05X1r\nwUilySmy+Xr+OysHlxhx9cxTL9dHTx6e0AqNowIZ79IY1koAuLwBdvcPeQKBgQDD\nZN4wmIvR33In9xJHf2AAl0qIfcA5RimN6ESNx1In4MdenIdhX9pYc2ryzqkWNLNd\nnacdHFG45gsiK7d4rg5hFz7w2hY7g5tL1rBDatrAUjxpJxArmizu3cXJYC6E1BAC\n2hulNWNE7w4gg0XHjcxgMt+/A/XYVoli0cxMRixwEQKBgQDAAi/vwDw7YdzGITMl\nr7g0O0PCIE91d+hqeHTCIcmshlomyvtOmM4cZUPMEruLEHuv+nxQji63oTBTS4Jn\nWVGeTAhVTYVHJRarKPBKPqgDzLvcuXWumaou3lvsOQR7okfRd5nHVD3hotDiqgSx\nEZDdtrErVu5447rEUxpxNzE8uw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "account1@omar-mohamed-el-sayed-project.iam.gserviceaccount.com",
+    "client_id": "116755702669477998081",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/account1%40omar-mohamed-el-sayed-project.iam.gserviceaccount.com"
+  }
